@@ -8,7 +8,7 @@ const Navbar = () => {
   const isHomePage = pathname === "/";
 
   return (
-    <div className="navbar w-[80vw] mx-auto bg-base-300 h-[5vh]  flex-row justify-center sticky top-0 backdrop-blur-lg border-b border-base-content ">
+  <div className="z-50 navbar w-[80vw] mx-auto bg-base-300 min-h-[56px] flex-row justify-center sticky top-0 left-0 backdrop-blur-lg border-b border-base-content">
       <div className="flex-1 flex items-center">
         <BoxIcon/>
         <a className="btn btn-ghost text-xl">VOLTIVA</a>

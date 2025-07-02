@@ -10,7 +10,7 @@ function App() {
   const {theme}= useThemeStore();
   return (
     
-      <div data-theme = {theme} className="bg-base-100 transition-colors duration-300  overflow-hidden justify-center mt-4"  >
+      <div data-theme = {theme} className="bg-base-300 transition-colors duration-300  overflow-hidden justify-center mt-4"  >
 
 
         <Navbar/>

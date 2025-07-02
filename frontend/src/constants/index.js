@@ -6,6 +6,11 @@ export const THEMES = [
     colors: ["#ffd8d8", "#b7e4c7", "#d8b4fe", "#ef9995",],
   },
   {
+    name: "synthwave",
+    label: "Synthwave",
+    colors: ["#f72585", "#7209b7", "#3a0ca3", "#4361ee"], 
+  },
+  {
     name: "retro",
     label: "Retro",
     colors: ["#e2d5bc", "#ffd8d8", "#b7e4c7", "#d8b4fe"],
